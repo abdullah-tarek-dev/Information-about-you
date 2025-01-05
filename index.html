@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بياناتك</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>بياناتك</h1>
+        <div class="card" id="search">
+            <div class="form-control">
+                <input
+                  type="text"
+                  required
+                  placeholder="أدخل الرقم القومي"
+                  class="input input-alt"
+                  id="txt"
+                  maxlength="14"
+                />
+                <span class="input-border input-border-alt"></span>
+              </div>
+              <button id="btn"> بحث
+            </button>
+        </div>
+<!-- scetion appear data -->
+        <div class="content" id="information">
+    <div class="inform">
+        <label>الرقم القومي</label>
+        <input id="nat" readonly value="">
+    </div>
+    <div class="inform">
+        <label>تاريخ الميلاد</label>
+        <input id="birth" readonly value="">
+    </div>
+    <div class="inform">
+        <label>المحافظة</label>
+        <input id="gov" readonly value="">
+    </div>
+    <div class="inform">
+        <label>كود المحافظة</label>
+        <input id="govcode"  readonly value="">
+    </div>
+    <div class="inform">
+        <label>الجنس</label>
+        <input id="gen" readonly value="">
+    </div>
+    <div class="inform">
+        <label>العمر</label>
+        <input id="age" readonly value="">
+    </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
